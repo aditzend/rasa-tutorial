@@ -1,0 +1,25 @@
+intents:
+  - bienvenida
+  - despedida
+
+actions:
+  - utter_greet
+
+templates:
+  utter_greet:
+    - text: "Hola Data Science Bolivia! Como están?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
