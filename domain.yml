@@ -1,9 +1,9 @@
 intents:
-  - saluda
-  - despide
+  - hola
+  - despedida
 
 responses:
   utter_saluda:
-    - text: "Hola Data Science Bolivia! Como están?"
+    - text: "Hola, soy un bot hecho en RASA !"
   utter_despide:
-    - text: "Que hermoso hablar contigo 👋"
+    - text: "Que hermoso hablar contigo 👋, adiós"
