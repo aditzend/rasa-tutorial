@@ -1,12 +1,15 @@
 intents:
   - hola
   - despedida
+  - decir_nombre
   - pedir_pizza
 
 slots:
   nombre:
     type: text
     initial_value: "humano"
+  ingredientes:
+    type: list
 
 
 responses:
@@ -18,5 +21,7 @@ responses:
     - text: "Como te llamas?"
   utter_confirmar_nombre:
     - text: "Genial {nombre}, como puedo ayudarte?"
-
-  
+  utter_preguntar_ingredientes:
+    - text: "Que ingredientes quieres en tu pizza?"
+  utter_confirmar_ingredientes:
+    - text: "Perfecto {nombre}, sale una pizza con estos ingredientes : {ingredientes}"
