@@ -1,11 +1,15 @@
 ## happy path , cuando el usuario coopera
 
 * hola
-  - utter_saluda
+  - utter_saludar
+  - utter_preguntar_nombre
+* decir_nombre{"nombre":"Human"}
+  - utter_confirmar_nombre
 
-## happy path , cuando el usuario coopera
+## cuando el usuario no coopera
 
 * hola
-  - utter_saluda
+  - utter_saludar
+  - utter_preguntar_nombre
 * despedida
-  - utter_despide
+  - utter_despedir

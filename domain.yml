@@ -1,9 +1,22 @@
 intents:
   - hola
   - despedida
+  - pedir_pizza
+
+slots:
+  nombre:
+    type: text
+    initial_value: "humano"
+
 
 responses:
-  utter_saluda:
-    - text: "Hola, soy un bot hecho en RASA !"
-  utter_despide:
+  utter_saludar:
+    - text: "Hola, soy 🍕 PizzaBot 🍕!"
+  utter_despedir:
     - text: "Que hermoso hablar contigo 👋, adiós"
+  utter_preguntar_nombre:
+    - text: "Como te llamas?"
+  utter_confirmar_nombre:
+    - text: "Genial {nombre}, como puedo ayudarte?"
+
+  
