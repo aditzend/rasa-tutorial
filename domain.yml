@@ -1,9 +1,9 @@
 intents:
-  - Usuario_Saluda
-  - Usuario_Despide
+  - saluda
+  - despide
 
 responses:
-  Bot_Saluda:
+  utter_saluda:
     - text: "Hola Data Science Bolivia! Como están?"
-  Bot_Despide:
+  utter_despide:
     - text: "Que hermoso hablar contigo 👋"

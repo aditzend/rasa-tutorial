@@ -1,4 +1,4 @@
-## intent:Usuario_Saluda
+## intent:saluda
 
 - hola
 - olii
@@ -8,7 +8,7 @@
 - como va?
 - como esta usted?
 
-## intent:Usuario_Despide
+## intent:despide
 
 - chau
 - nos vemos

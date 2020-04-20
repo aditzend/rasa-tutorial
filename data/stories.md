@@ -1,6 +1,11 @@
 ## happy path , cuando el usuario coopera
 
-- Usuario_Saluda
-  - Bot_Saluda
-- Usuario_Despide
-  - Bot_Despide
+* saluda
+  - utter_saluda
+
+## happy path , cuando el usuario coopera
+
+* saluda
+  - utter_saluda
+* despide
+  - utter_despide
