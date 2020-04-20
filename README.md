@@ -1,18 +1,25 @@
-# Crea tu propio asistente virtual con RASA
+![Rasa tutorial banner](./presentation/banner.png)
 
-## Instalación
+
+
+## Instalación local
 
 Para instalar localmente, ver los [RASA Docs](https://rasa.com/docs/rasa/user-guide/installation/)
 
-Si no quieres instalar RASA en tu computadora y prefieres correrlo en docker, estos son los comandos 
+
+## Usando Docker
+Si no quieres instalar RASA en tu computadora y prefieres usar docker, a continuación dejo los comandos.
+
+
+
 
 ### Entrenar con docker
+
 ```docker run -v $(PWD):/app rasa/rasa:1.9.6-full train  ```
 
 Entrenamos usando la versión 1.9.6 con todos los paquetes. 
 
 El modelo quedará guardado en la carpeta ```./models```
-
 
 
 
